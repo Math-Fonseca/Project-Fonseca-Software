@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Fonseca Software - Serviços</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="description" content="Empresa especializada em criação de sites, aplicativos e manutençao de dispositivos eletrônicos.">
+        <meta name="keywords" content="Sites, Aplicativos, Manutenção">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Matheus Fonseca">
+        <link rel="shortcut icon" href="Ico/icon.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+        <!-- CABEÇALHO -->
+        
+        <header class="cabecalho container">
+            <a href="index.html">
+            <h1 class="logo"> Fonseca Software - Informática a Essência da Evolução </h1>
+            </a>
+            <button class="btn-menu bg-gradient"><img src="Ico/menu.png"></button>
+            <nav class="menu">
+                <a class="btn-close"><img src="Ico/cancelb.png" class="icon"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servi%C3%A7os.html">Serviços</a></li>
+                    <li><a href="or%C3%A7amento.html">Orçamento</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="formulario.html">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- BANNER -->
+        
+        <div class="banner ccontainer clear">
+            <div class="title">
+                <div align="center">
+                <img src="img/logo-mobile.png">
+                </div>
+                <h2>Fonseca Software</h2>
+                <h3>Informática a Essência da Evolução</h3>
+            <div class="buttons">    
+                <a href="formulario.html"><button class="btn bg-white radius">Cadastrar</button></a>
+                <a href="quem-somos.html"><button class="btn bg-black radius">Sobre</button></a>
+            </div>    
+            </div>
+        </div>
+        
+        <!-- CONTEÚDO -->
+        
+        <div class="inner">
+        <h2 class="h2 h">Conheça nossos serviços</h2>
+        </div>    
+            
+        <main class="servicos container">
+            <article class="servico bg-white radius">
+					<img src="img/Web.jpg" alt="Desenvolvimento Web">
+                    <div class="inner">
+                    <h4>Densenvolvimento Web</h4>
+					<p>Deseja ter seu próprio site? Conte conosco. <br>
+                    Desenvolvemos sites diversos, seja você uma empresa, organização, evento, blogger... Basta escolher seu estilo e nós o faremos.
+					Solicite um orçamento e enviaremos todos os detalhes.</p>
+                    </div>
+                    <button class="button"><a href="orçamento.html">Solicite seu orçamento</a></button>
+            </article>
+            <article class="servico bg-white radius">
+					<img src="img/Apps.jpg" alt="Desenvolvimento de Apps">
+                    <div class="inner">
+                    <h4>Densenvolvimento de Aplicativos</h4>
+					<p>Possui um projeto em desenvolvimento e deseja trazer algo moderno e revolucionário?<br>
+                    Desenvolvemos aplicativos para você, agora o seu negócio pode estar mais perto do sucesso, em um clique e a sua empresa estará nas mãos do cliente<br>
+					Solicite um orçamento e enviaremos todos os detalhes.</p>
+                    </div>
+                    <button class="button"><a href="orçamento.html">Solicite seu orçamento</a></button>
+            </article>
+            <article class="servico bg-white radius">
+					<img src="img/manutencao site.png" alt="Manutençao de Sites e Apps">
+                    <div class="inner">
+                    <h4>Manutenção Sites e Aplicativos</h4>
+					<p>Possuí um site ou aplicativo que está sem atualizações?<br>
+                    Oferecemos a você a manutenção para melhor qualidade dos seus sites e apps.<br>
+                    Solicite um orçamento e enviaremos todos os detalhes.</p>
+                    </div>
+                    <button class="button"><a href="orçamento.html">Solicite seu orçamento</a></button>
+            </article>
+            <article class="servico bg-white radius">
+                <img src="img/manutençao.jpg" alt="Manutençao de eletrônicos">
+                <div class="inner">
+                <h4>Manutenção equipamentos eletrônicos</h4>
+                <p>Seu aparelho eletrônico apresentou algum tipo de problema?<br>
+                Fazemos a manutenção de computadores, notebooks, tablets e celulares.<br>
+                Solicite um orçamento e enviaremos todos os detalhes.</p>
+                </div>
+                <button class="button"><a href="orçamento.html">Solicite seu orçamento</a></button>
+            </article>
+        </main>
+        
+        <!-- RODAPÉ -->
+        
+        <footer class="container bg-gradient">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"><img src="Ico/facebook.png" class="icon"></a>
+            <a href="https://www.instagram.com/"><img src="Ico/instagram.png" class="icon"></a>
+            <a href="https://www.google.com.br/"><img src="Ico/google.png" class="icon"></a>  
+            <a href="https://twitter.com/"><img src="Ico/twitter.png" class="icon"></a>
+            <a href="https://www.whatsapp.com/"><img src="Ico/whatsapp.png" class="icon"></a>
+          </div>
+          <p class="copyright">
+            Copyright © Fonseca Software 2020. Todos os direitos reservados.
+        </footer>
+        
+        <!-- JQUERY --> 
+        
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js">
+        </script>
+        <script>
+            $(".btn-menu").click(function(){
+            $(".menu").show();});
+            $(".btn-close").click(function(){
+            $(".menu").hide();});
+        </script>      
+    </body>
+
+    
+</html>

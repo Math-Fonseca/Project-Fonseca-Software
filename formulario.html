@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Fonseca Software - Cadastre-se</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="description" content="Empresa especializada em criação de sites, aplicativos e manutençao de dispositivos eletrônicos.">
+        <meta name="keywords" content="Sites, Aplicativos, Manutenção">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Matheus Fonseca">
+        <link rel="shortcut icon" href="Ico/icon.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+        <!-- CABEÇALHO -->
+        
+        <header class="cabecalho container">
+            <a href="index.html">
+            <h1 class="logo"> Fonseca Software - Informática a Essência da Evolução </h1>
+            </a>
+            <button class="btn-menu bg-gradient"><img src="Ico/menu.png"></button>
+            <nav class="menu">
+                <a class="btn-close"><img src="Ico/cancelb.png" class="icon"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servi%C3%A7os.html">Serviços</a></li>
+                    <li><a href="or%C3%A7amento.html">Orçamento</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="formulario.html">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- BANNER -->
+        
+        <div class="banner ccontainer clear">
+            <div class="title">
+                <div align="center">
+                <img src="img/logo-mobile.png">
+                </div>
+                <h2>Fonseca Software</h2>
+                <h3>Informática a Essência da Evolução</h3>
+            <div class="buttons">    
+                <a href="formulario.html"><button class="btn bg-white radius">Cadastrar</button></a>
+                <a href="quem-somos.html"><button class="btn bg-black radius">Sobre</button></a>
+            </div>    
+            </div>
+        </div>
+        
+        <!-- CONTEÚDO -->
+        
+        <h1 class="h1 h">Cadastre-se</h1>
+            <h2 class="h2 h clear">Formulário de cadastro</h2>
+                <section class="clear cs">
+                <form>
+                <main>
+                <article>    
+                Nome:
+                <input type="text" name="nome" placeholder="Nome"><br>
+                Sobrenome:
+                <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
+                Data de Nascimento:
+                <input type="date" name="nascimento"><br>
+                E-mail:
+                <input type="email" name="email" placeholder="Email"><br>
+                Telefone:
+                <input type="tel" name="telefone" placeholder="Telefone"><br>
+                Celular:
+                <input type="tel" name="telefone" placeholder=Celular><br>   <br>
+                Sexo:<br>
+                <input type="radio" name="sexo" value="M"> Masculino <br>
+                <input type="radio" name="sexo" value="F"> Feminino
+                </article>
+                <article>    
+                UF:
+                <select>
+                <option>Selecione Seu Estado</option>    
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>    
+                </select><br>
+                Cidade:
+                <input type="text" name="cidade" placeholder="Município"><br>
+                CEP:
+                <input type="text" name="cep" placeholder="XXXXX-XXX"><br>
+                <a href="https://www.google.com.br/maps/">Não sei meu CEP</a><br><br>    
+                Rua:
+                <input type="text" name="rua" placeholder="Av; Rua..."><br>
+                Número:
+                <input type="text" name="numero_casa" placeholder="Número 'Ex: 10; 9F...'"><br>
+                Complemento:
+                <input type="text" name="Complemento" placeholder="Apartamento; Andar..."><br>
+                </article>
+                <article>    
+                Dados de login<br>    
+                Nome:
+                <input type="text" name="usuario" placeholder="Login"><br>
+                Senha:    
+                <input type="password" name="senha" id="senha" placeholder="senha">
+                <input type="button" onclick="MostrarOcultarSenha()"><br>
+                <input type="submit" value="Cadastrar">   
+                </article>   
+                </main>    
+                </form>
+                </section>
+        
+        <!-- RODAPÉ -->
+        
+        <footer class="container bg-gradient">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"><img src="Ico/facebook.png" class="icon"></a>
+            <a href="https://www.instagram.com/"><img src="Ico/instagram.png" class="icon"></a>
+            <a href="https://www.google.com.br/"><img src="Ico/google.png" class="icon"></a>  
+            <a href="https://twitter.com/"><img src="Ico/twitter.png" class="icon"></a>
+            <a href="https://www.whatsapp.com/"><img src="Ico/whatsapp.png" class="icon"></a>
+          </div>
+          <p class="copyright">
+            Copyright © Fonseca Software 2020. Todos os direitos reservados.
+        </footer>
+        
+        <!-- JQUERY --> 
+        
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js">
+        </script>
+        <script>
+            $(".btn-menu").click(function(){
+            $(".menu").show();});
+            $(".btn-close").click(function(){
+            $(".menu").hide();});
+        </script>
+        <script>
+            function MostrarOcultarSenha() {
+                var senha=document.getElementById("senha")
+                if(senha.type=="password"){
+                senha.type="text";}
+                else{senha.type="password";}
+                }
+        </script>
+    </body>
+    
+</html>
